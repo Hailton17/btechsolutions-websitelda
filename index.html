@@ -1,92 +1,24 @@
+
 <!doctype html>
 <html lang="pt">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>B Tech Solutions, Lda | Consultoria em TI, Redes e Suporte Técnico<\/title>
-  <meta name="description" content="B Tech Solutions, Lda — Consultoria em TI, Redes Informáticas, Segurança e Suporte Técnico profissional em Moçambique." />
-  <meta name="keywords" content="Consultoria TI, Redes Informáticas, Suporte Técnico, Segurança da Informação, Moçambique" />
-  <meta name="author" content="B Tech Solutions, Lda" />
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f6f8fb; color: #1f2937; }
-    a { text-decoration: none; color: inherit; }
-    header { position: sticky; top:0; z-index: 10; background:#0f172a; color:white; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
-    nav { display:flex; align-items:center; justify-content: space-between; height:64px; }
-    nav .logo { font-weight: 700; font-size: 1.2rem; }
-    nav ul { list-style:none; display:flex; gap: 20px; margin:0; padding:0; }
-    nav li a { color:#e5e7eb; font-size:.95rem; }
-    nav li a:hover { color:white; }
-    .hero { padding: 96px 0 72px; text-align:center; background:linear-gradient(135deg,#020617,#0f172a); color:white; }
-    .hero h1 { margin:0 0 16px; font-size:2.2rem; line-height:1.2; }
-    .hero p { max-width:680px; margin:0 auto 24px; color:#cbd5f5; font-size:1.05rem; }
-    .btn { display:inline-block; padding:12px 22px; border-radius:999px; background:#2563eb; color:white; font-weight:600; }
-    .btn:hover { background:#1d4ed8; }
-    section { padding: 64px 0; }
-    h2.section-title { text-align:center; font-size:1.6rem; margin:0 0 36px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
-    .card { background:white; border-radius:16px; padding:20px; box-shadow: 0 10px 25px rgba(15,23,42,.08); }
-    .card h3 { margin-top:0; }
-    .about { background:#e5e7eb40; }
-    .contacts-list { list-style:none; padding:0; margin:16px 0 0; font-size:1.05rem; }
-    .contacts-list li { margin-bottom:8px; }
-    footer { background:#0f172a; color:#9ca3af; text-align:center; padding:24px 0; font-size:.9rem; }
-    @media (max-width:640px){ .hero h1{font-size:1.7rem;} }
-  .wa-btn{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 10px 18px rgba(0,0,0,.18);z-index:30} .wa-btn:hover{transform:translateY(-2px)}
-  <\/style>
-  <style>
-    /* ===== Responsividade Melhorada ===== */
-    @media (max-width:900px){
-      nav{flex-wrap:wrap}
-      .hero h1{font-size:1.9rem}
-    }
 
-    @media (max-width:640px){
-      .hero h1{font-size:1.6rem}
-      .btn{padding:10px 18px}
-      nav ul{gap:12px}
-      .grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-    }
+  <title>B Tech Solutions, Lda | Consultoria em TI, Redes e Suporte Técnico</title>
 
-    @media (max-width:480px){
-      nav{flex-direction:column;height:auto;padding:10px 0}
-      nav .logo{margin-bottom:6px}
-      .grid{grid-template-columns:1fr}
-      .hero{padding:72px 0 56px}
-    }
-  </style>
-  <style>
-    /* ===== Logo e Identidade Visual ===== */
-    .logo-img{height:50px; max-width:180px; object-fit:contain}
+  <meta name="description" content="B Tech Solutions, Lda — Consultoria em TI, Redes Informáticas, Segurança e Suporte Técnico profissional em Moçambique.">
+  <meta name="keywords" content="Consultoria TI, Redes Informáticas, Suporte Técnico, Segurança da Informação, Moçambique">
+  <meta name="author" content="B Tech Solutions, Lda">
 
-    @media (max-width:480px){
-      .logo-img{height:42px}
-    }
-  </style>
-  <style>
-    /* ===== Hero com imagem de fundo ===== */
-    .hero{
-      position:relative;
-      background:linear-gradient(rgba(2,6,23,.55),rgba(2,6,23,.75)), url('assets/hero-tech.jpg') center/cover no-repeat;
-    }
-    .hero .container{position:relative; z-index:2}
-
-    /* ===== Portfólio / Galeria ===== */
-    #portfolio{background:#f2f5fa}
-    .portfolio-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px;}
-    .portfolio-grid img{width:100%; border-radius:16px; height:200px; object-fit:cover; box-shadow:0 10px 24px rgba(15,23,42,.12); transition:transform .25s, box-shadow .25s}
-    .portfolio-grid img:hover{transform:translateY(-4px); box-shadow:0 14px 30px rgba(15,23,42,.18)}
-    @media(max-width:520px){.portfolio-grid img{height:170px}}
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header>
     <div class="container">
       <nav>
-        <div class="logo">
-          <img src="assets/logo-btech.png" alt="B Tech Solutions, Lda" class="logo-img" />
-        </div>
+        <div class="logo">B Tech Solutions, Lda</div>
         <ul>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#sobre">Sobre</a></li>
@@ -99,7 +31,7 @@
   <section class="hero">
     <div class="container">
       <h1>Consultoria em TI, Redes Informáticas e Suporte Técnico Profissional</h1>
-      <p>Auxiliamos empresas, instituições e residências a terem sistemas tecnológicos eficientes, seguros e bem estruturados. Conte com especialistas para planear, implementar e manter a sua infraestrutura.</p>
+      <p>Auxiliamos empresas, instituições e residências a terem sistemas tecnológicos eficientes, seguros e bem estruturados.</p>
       <a class="btn" href="#contactos">Fale Connosco</a>
     </div>
   </section>
@@ -107,34 +39,27 @@
   <section id="servicos">
     <div class="container">
       <h2 class="section-title">Os Nossos Serviços</h2>
+
       <div class="grid">
         <div class="card">
           <h3>Consultoria em TI</h3>
-          <p>Avaliação, planeamento e otimização da infraestrutura tecnológica para apoiar os objetivos do seu negócio.</p>
+          <p>Avaliação, planeamento e otimização da infraestrutura tecnológica.</p>
         </div>
+
         <div class="card">
           <h3>Redes Informáticas</h3>
-          <p>Instalação e configuração de redes LAN/WAN, cabeamento estruturado, Wi‑Fi e interligação segura de filiais.</p>
+          <p>Instalação e configuração de LAN/WAN, Wi-Fi e interligação de filiais.</p>
         </div>
+
         <div class="card">
           <h3>Suporte Técnico</h3>
-          <p>Manutenção preventiva e corretiva, assistência remota e presencial, diagnósticos e resolução de incidentes.</p>
+          <p>Assistência remota e presencial, manutenção preventiva e corretiva.</p>
         </div>
+
         <div class="card">
           <h3>Segurança de Informação</h3>
-          <p>Implementação de firewalls, políticas de segurança, backups e proteção contra ameaças cibernéticas.</p>
+          <p>Firewalls, backups, políticas de segurança e proteção contra ameaças.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio">
-    <div class="container">
-      <h2 class="section-title">Alguns dos Nossos Trabalhos</h2>
-      <div class="portfolio-grid">
-        <img src="assets/portfolio-network.jpg" alt="Instalação e configuração de redes informáticas" />
-        <img src="assets/portfolio-server.jpg" alt="Servidores e infraestrutura tecnológica" />
-        <img src="assets/portfolio-support.jpg" alt="Suporte técnico e manutenção preventiva" />
       </div>
     </div>
   </section>
@@ -142,14 +67,14 @@
   <section class="about" id="sobre">
     <div class="container">
       <h2 class="section-title">Quem Somos</h2>
-      <p style="max-width:800px;margin:0 auto 12px;text-align:center;">A <strong>B Tech Solutions, Lda</strong> é uma empresa privada orientada para soluções tecnológicas fiáveis e acessíveis. O nosso foco é garantir que os seus sistemas estejam sempre disponíveis, seguros e alinhados com as melhores práticas do mercado.</p>
+      <p class="center">A <strong>B Tech Solutions, Lda</strong> é uma empresa privada orientada para soluções tecnológicas fiáveis e acessíveis em Moçambique.</p>
     </div>
   </section>
 
   <section id="contactos">
     <div class="container">
-      <h2 class="section-title">Contacte‑nos</h2>
-      <p style="text-align:center;max-width:720px;margin:0 auto 12px;">Estamos disponíveis para esclarecer dúvidas, elaborar orçamentos e apoiar o seu projeto.</p>
+      <h2 class="section-title">Contacte-nos</h2>
+
       <ul class="contacts-list">
         <li><strong>Telemóveis:</strong> 845454441 · 864025925</li>
         <li><strong>Email:</strong> info@btechsolutions.co.mz</li>
@@ -159,13 +84,15 @@
   </section>
 
   <footer>
-    <div class="container">© <span id="year"></span> B Tech Solutions, Lda — Todos os direitos reservados.</div>
+    <div class="container">
+      © <span id="year"></span> B Tech Solutions, Lda — Todos os direitos reservados.
+    </div>
   </footer>
 
-  <a class="wa-btn" href="https://wa.me/258845454441?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20B%20Tech%20Solutions" aria-label="Fale connosco no WhatsApp" target="_blank">💬<\/a>
+  <a class="wa-btn" href="https://wa.me/258845454441?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20B%20Tech%20Solutions" target="_blank" aria-label="WhatsApp">
+    💬
+  </a>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  <\/script>
-<\/body>
+  <script src="script.js"></script>
+</body>
 </html>
